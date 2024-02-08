@@ -1,0 +1,20 @@
+.modalContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .modalContent {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    .modalHeader {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
